@@ -6,7 +6,9 @@ This project classifies movies into various genres based on their scripts.
 
 ## Structure
 
-The bulk of the project is contained in the jupyter notebook with various helper functions defined in other files.
+The bulk of the project is contained in the jupyter notebook. 
+
+The following files provide helper functions in support of the analysis
 - `imsdb.py` is scrapes script data from IMSDB using `BeautifulSoup`
 - `clean_imsdb.py` is used to clean data scraped from the IMSDB website
 - `fuzzy.py` defines a function to provide fuzzy matching for combining data from different sources that may have slight differences in the movie names
